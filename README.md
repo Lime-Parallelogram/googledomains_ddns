@@ -18,7 +18,7 @@ docker logs gdomains_ddns
 ```
 
 ### Required Environment Variables:  
-```Dockerfile
+```yaml
 USERNAME="UNSET" # google domains username*
 PASSWORD="UNSET" # google domains password*
 HOSTNAME="UNSET" # the host you are updating
@@ -26,7 +26,7 @@ HOSTNAME="UNSET" # the host you are updating
 \* These are **not** your google account details.
 
 ### Optional Environment Variables:
-```Dockerfile
+```yaml
 TIMEOUT=8 # The time in mins to wait between updates (default=8)
 ```
 
