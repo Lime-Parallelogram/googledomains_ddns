@@ -33,7 +33,7 @@ TIMEOUT=8 # The time in mins to wait between updates (default=8)
 ### Example docker-compose
 For easy backup, you may chose to create a compose file for all of of your DDNS domains. For example, this could look like:
 ```yaml
-version '3':
+version: '3'
 services:
     ddns1:
         image: limeparallelogram/googledomains_ddns
